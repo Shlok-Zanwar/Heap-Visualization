@@ -3,6 +3,8 @@ import { useSnackbar } from 'notistack';
 import { useEffect } from 'react';
 import MinHeap from './Components/MinHeap';
 import MaxHeap from './Components/MaxHeap';
+import NewMaxHeap from './Components/NewMaxHeap';
+import NewMinHeap from './Components/NewMinHeap';
 
 
 function BSTApp() {
@@ -16,8 +18,10 @@ function BSTApp() {
 
     return (
         <div className="App">
-            <MinHeap />
-            <MaxHeap />
+            {/* <MinHeap /> */}
+            <NewMinHeap />
+            {/* <MaxHeap /> */}
+            {/* <NewMaxHeap /> */}
         </div>
     );
 }
